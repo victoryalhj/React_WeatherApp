@@ -1,0 +1,24 @@
+body {
+  background-image: url("/img/background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-box {
+  border: 3px solid white;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 20px;
+}
