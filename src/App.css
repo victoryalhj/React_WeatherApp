@@ -16,22 +16,53 @@ body {
 }
 
 .weather-box {
-  border: 3px solid white;
+  /* border: 3px solid white; */
   padding: 50px;
   border-radius: 10px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.539);
   margin: 20px;
 }
 
 /* Button */
-.weather-button {
-
-}
 .weather-button button {
   margin: 3px;
   cursor: pointer;
   font-weight: 700;
+
 }
 .weather-button button:hover {
   background-color: red;
 }
+
+@media screen and (max-width:430px) {
+  body {
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    height: 100%;
+  }
+  .background-box{
+    width: 300px;
+    height: 90vh;
+    border-radius: 10px;
+    background-color: rgba(10, 10, 0, 0.337);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .weather-box {
+    text-align: center;
+  }
+  .weather-box h2 {
+    font-size: 1.5em;
+  }
+  .weather-box h1 {
+    font-size: 1em;
+  }
+  .weather-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
