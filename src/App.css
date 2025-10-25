@@ -22,3 +22,16 @@ body {
   background-color: white;
   margin: 20px;
 }
+
+/* Button */
+.weather-button {
+
+}
+.weather-button button {
+  margin: 3px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.weather-button button:hover {
+  background-color: red;
+}
